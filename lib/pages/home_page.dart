@@ -18,9 +18,11 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-            child: Text(
-                "Welcome to Star Properties App on day $day from $name" +
-                    " He is $age years old. App has $started with $pi $a")),
+          child: Center(
+              child: Text(
+                  "Welcome to Star Properties App on day $day from $name" +
+                      " He is $age years old. App has $started with $pi $a")),
+        ),
       ),
       drawer: Drawer(),
     );
